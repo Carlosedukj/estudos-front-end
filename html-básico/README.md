@@ -1,4 +1,4 @@
-Tags Iniciais
+<h3>Tags Iniciais</h3>
 
 A tag ```<a>```, marca um link.
 
@@ -43,7 +43,8 @@ Dados extras sobre o documento.
 Conteúdo do site, aqui escrevemos toda a estrutura do documento.
 ```
 
-Exemplo:
+<h3>Exemplo:</h3>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -57,8 +58,9 @@ Exemplo:
 </html>
 ```
 
-Caminho (path) <br>
+<h3>Caminho (path)</h3><br>
 ° Absoluto <br>
+
 Exemplo: ```<a href="https://google.com">Google</a>```.
 Usado para arquivos externos ao nosso site.
 
