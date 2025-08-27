@@ -19,7 +19,7 @@
 
 - `html-basico/` – Estudos sobre estrutura HTML, semântica, boas práticas.
 - `css-flexbox-grid/` – Prática de estilização, responsividade com Flexbox e Grid.
-- `javascript-logica/` – Exercícios de lógica e manipulação de elementos no DOM.
+- `javascript/` – Exercícios de lógica e manipulação de elementos no DOM.
 - `projetos/` – Mini projetos aplicando tudo aprendido.
 - `apis/` – Experimentos com requisições via fetch(), APIs públicas etc.
 - `desafios/` – Desafios feitos para testar meus conhecimentos em tempo real.
