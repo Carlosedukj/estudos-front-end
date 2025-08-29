@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.geral {
+  padding: 25px;
+  margin: 10px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+span {
+  color: #febe01;
+}
+
+
+.description {
+  color: #b2b2b2;
+  font-weight: normal;
+  font-family: Arial;
+}
+
+a { 
+  padding: 10px;
+  display: inline-block;
+  background-color: #febe01;
+  color: #332200;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+
+}
+

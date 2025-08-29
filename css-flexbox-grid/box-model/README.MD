@@ -48,6 +48,7 @@ Cada bloco ou quadrado da imagem representa UM pixel.
 <h1>div</h1> 
 
 A ```<div>``` é um elemento de bloco block genérico que serve para auxiliar no posicionamento dos elementos/conteúdo na tela.
-Existem também elementos semânticos como main, section, nav e outros que veremos em outras aulas.
+Existem também elementos semânticos como main, section, nav e outros.
 
 ![alt text](image-4.png) ![alt text](image-5.png) ![alt text](image-6.png)
+
