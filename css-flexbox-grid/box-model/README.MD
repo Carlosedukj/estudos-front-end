@@ -2,7 +2,7 @@
 
 ----------------
 <h1>Box Model</h1>
-Caixas 
+Caixas:<br>
 Uma interface web é composta de diversas caixas que organizam o conteúdo.
 
 <br>
