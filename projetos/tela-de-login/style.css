@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(./img/fundo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 500px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.container h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #c5c5c5;
+}
+
+.input-box input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.1) inset;
+  -webkit-text-fill-color: #fff; /* cor do texto */
+  transition: background-color 5000s ease-in-out 0s
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content:space-between;
+  margin: -15px 0 15px;
+  font-size: 14px;
+}
+
+/* 
+          margin e padding 
+
+  Um valor - margin: 20px - Todos os lados
+  Dois valores - margin: 20px 30px - Em cima e embaixo, dos lados
+  Três valores - margin: 20px 10px 30px - Em cima, dos lados, embaixo
+  Quatro valores - margin: 10px 30px 12px 33px - em cima, dierita, embaixo, esquerda
+ */
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+  font-size: 14px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  width: 100%;
+  padding: 14px 40px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: 0;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 0.1) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+.login:hover {
+  letter-spacing: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #969595;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 7px 29px 0px;
+}
+
+.login:active {
+  letter-spacing: 3px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.15);
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.register-link {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 20px 0 15px;
+
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
